@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cb0905c-c4f5-4041-b236-563e8df127a2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VnMyOIh2o0Ffj7Gg29Hp7c6iMM" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pictures" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Important\JavaProjects\StudentManagement\src\frame\admin" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="frame" />
+      <recent name="gui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="frame" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Important\JavaProjects\StudentManagement\src\pictures" />
+      <recent name="D:\Important\JavaProjects\StudentManagement\src\frame\teacher" />
+      <recent name="D:\Important\JavaProjects\StudentManagement\src\util" />
+      <recent name="D:\Important\JavaProjects\StudentManagement\src\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LoginGUI">
+    <configuration name="ChartJFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frame.admin.ChartJFrame" />
+      <module name="StudentManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frame.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseAddJPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frame.admin.CourseAddJPanel" />
+      <module name="StudentManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateChooserJButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frame.admin.DateChooserJButton" />
+      <module name="StudentManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frame.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeSearchFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frame.GradeSearchFrame" />
+      <module name="StudentManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.LoginGUI" />
+      <module name="StudentManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frame.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginGUI" />
+        <item itemvalue="Application.ChartJFrame" />
+        <item itemvalue="Application.DateChooserJButton" />
+        <item itemvalue="Application.CourseAddJPanel" />
+        <item itemvalue="Application.GradeSearchFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb0905c-c4f5-4041-b236-563e8df127a2" name="Default Changelist" comment="" />
+      <created>1577884659960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577884659960</updated>
+      <workItem from="1577884662542" duration="50817000" />
+      <workItem from="1578018709735" duration="11044000" />
+      <workItem from="1578050080732" duration="21307000" />
+      <workItem from="1578128494748" duration="42042000" />
+      <workItem from="1578209717431" duration="493000" />
+      <workItem from="1578210462556" duration="139511000" />
+      <workItem from="1578656398699" duration="173000" />
+      <workItem from="1579141722916" duration="613000" />
+      <workItem from="1579393518811" duration="685000" />
+      <workItem from="1579544125183" duration="403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/gui/LoginGUI.java</url>
+          <line>36</line>
+          <properties field="btn_enter" class="gui.LoginGUI" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
