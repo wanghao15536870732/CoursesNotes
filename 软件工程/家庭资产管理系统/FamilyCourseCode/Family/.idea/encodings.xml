@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Accountflag.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/AddInaccount.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/AddOutaccount.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/DBOpenHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/FlagDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/FlagManage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/InaccountDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Inaccountinfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/InfoManage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/OutaccountDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Outaccountinfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/PwdDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Showinfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Sysset.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Tb_flag.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Tb_inaccount.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Tb_outaccount.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/Tb_pwd.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/edu/nuc/family/activity/datebase/Date_Bankincome.java" charset="GBK" />
+  </component>
+</project>

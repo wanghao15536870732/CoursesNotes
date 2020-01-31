@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.edu.nuc.family">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".activity.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.activity.QueryDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.QueryByAdminActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.InputChangeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.NewNoteActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.ChangeNoteBook"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.NoteBookActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.InputInformationActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.base.DailyInComeChange"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.base.Xiugai2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.base.Xiugai3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.base.Xiugai4"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".activity.activity.GeneralInputActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.BankInputActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.base.Luru3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.LoanInputActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.base.ChangeUserInformation"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.PaymentsManagementActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.ManagerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.HomeMemberManagerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.AddUserActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.activity.ChangeAdminActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+    </application>
+
+</manifest>

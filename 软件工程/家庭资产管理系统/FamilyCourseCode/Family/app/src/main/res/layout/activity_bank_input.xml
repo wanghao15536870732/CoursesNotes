@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bank_appbar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/bank_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
+            <ImageView
+                android:id="@+id/bank_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_back"
+                android:background="?android:attr/selectableItemBackground"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="银行存/取记录"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bank_appbar">
+
+        <TextView
+            android:id="@+id/bank_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textColor="#ABABAB"
+            android:textSize="60px"
+            android:layout_marginLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/bank_button1"
+            android:layout_width="104dp"
+            android:layout_height="30dp"
+            android:background="@drawable/huise"
+            android:textColor="#F7F7F7"
+            android:text="选择日期"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/riqi"
+            android:layout_below="@+id/bank_date"
+            android:layout_marginLeft="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/bank_radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp">
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="#000000"
+                android:text="银行存入" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="银行取出" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/bank_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_button1"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:text="银行存入/取出序号"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/bank_editText1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dabiankuang"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_textView1"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/bank_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_editText1"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="银行账号"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/bank_editText2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dabiankuang"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_textView2"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/bank_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_editText2"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="存入/取出金额"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/bank_editText3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dabiankuang"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_textView3"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/bank_textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_editText3"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="账户余额"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/bank_editText4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dabiankuang"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_textView4"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/bank_textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_editText4"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="存取类型"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/bank_editText5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dabiankuang"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_textView5"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/bank_textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_editText5"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="银行名称"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/bank_editText6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dabiankuang"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bank_textView6"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/bank_linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bank_editText6"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/bank_cancel"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/huise"
+                android:text="取消"
+                android:textColor="#F7F7F7" />
+
+            <Button
+                android:id="@+id/bank_sure"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/huise"
+                android:text="确定"
+                android:textColor="#F7F7F7" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

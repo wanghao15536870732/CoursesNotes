@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="10dp"
+    android:background="@drawable/nav_background">
+
+
+    <RelativeLayout
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <!--该开源项目是用来轻松实现图片圆形化的共能-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avatar"
+        android:layout_marginTop="25dp"
+        android:text="wanghao"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1484290617@qq.com"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/avatar"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

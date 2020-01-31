@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/general_appbar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/general_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
+            <ImageView
+                android:id="@+id/general_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_back"
+                android:background="?android:attr/selectableItemBackground"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="日常收入/支出记录"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/general_appbar">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#6F6969"
+            android:textSize="60px"
+            android:layout_marginLeft="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp">
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="53dp"
+                android:textColor="#8E8E8E"
+                android:text="日常支出" />
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton2"
+                android:layout_below="@+id/radioButton2"
+                android:textColor="#8E8E8E"
+                android:text="日常收入" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/choose_date"
+            android:layout_width="104dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/date"
+            android:layout_below="@+id/date"
+            android:background="@drawable/huise"
+            android:text="选择日期"
+            android:textColor="#F7F7F7"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/general_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/choose_date"
+            android:text="日常收入/支出序号"
+            android:textColor="#ABABAB"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:id="@+id/general_editText1"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/general_textView1"
+            android:layout_height="40dp"
+            android:background="@drawable/dabiankuang"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/general_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/general_editText1"
+            android:text="日常收入/支出名称"
+            android:textColor="#ABABAB"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/general_editText2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/general_textView3"
+            android:background="@drawable/dabiankuang"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/general_textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/general_editText2"
+            android:text="日常收入/支出金额"
+            android:textColor="#ABABAB"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/general_editText3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/general_textView4"
+            android:background="@drawable/dabiankuang"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/general_editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/huise"
+                android:layout_marginRight="20dp"
+                android:text="取消"
+                android:textColor="#F7F7F7" />
+
+            <Button
+                android:id="@+id/sureBtn"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/huise"
+                android:text="确定"
+                android:textColor="#F7F7F7" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--用Group将item分开，相邻item之间可以显示分割线-->
+    <group android:id="@+id/zero"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/nav_home"
+            android:title="主页" />
+    </group>
+    <group android:id="@+id/one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_input"
+            android:icon="@drawable/nav_input"
+            android:title="录入和修改" />
+    </group>
+    <group android:id="@+id/two"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/nav_search"
+            android:title="查询明细"/>
+    </group>
+
+    <group android:id="@+id/three"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notebook"
+            android:icon="@drawable/nav_notebook"
+            android:title="记事本"/>
+    </group>
+
+    <group android:id="@+id/four"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/nav_calculator"
+            android:title="计算器"/>
+    </group>
+
+</menu>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    android:orientation="vertical"
+    android:id="@+id/login_main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title" />
+
+    <RelativeLayout
+        android:id="@+id/login_div"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="15dip"
+        android:background="@drawable/background_login_div"
+        android:padding="15dip" >
+
+        <!-- 账号 -->
+
+        <TextView
+            android:id="@+id/login_user_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="账号"
+            android:textSize="16sp"
+            android:layout_marginBottom="3dp"/>
+
+        <EditText
+            android:id="@+id/username_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/login_user_input"
+            android:background="@drawable/background_login_div"
+            android:hint="请输入账号"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"/>
+
+        <!-- 密码 text -->
+
+        <TextView
+            android:id="@+id/login_password_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_edit"
+            android:layout_marginTop="3dp"
+            android:text="密码"
+            android:textSize="16dp"
+            android:layout_marginBottom="3dp"/>
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/login_password_input"
+            android:background="@drawable/background_login_div"
+            android:inputType="textPassword"
+            android:password="true"
+            android:hint="请输入密码"
+            android:singleLine="true"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"
+            android:textColor="#000000"/>
+
+        <!-- 登录button -->
+
+        <Button
+            android:id="@+id/signin_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/password_edit"
+            android:layout_below="@+id/password_edit"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/btn_selector"
+            android:text="登 录"
+            android:textColor="#F8F8FF"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/tishi_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignRight="@+id/signin_button"
+            android:layout_below="@+id/signin_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_selector"
+            android:text="提示"
+            android:textColor="#F8F8FF"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
